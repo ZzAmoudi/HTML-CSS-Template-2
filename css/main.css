@@ -97,11 +97,11 @@ ul {
   width: fit-content;
   height: 60px;
 }
-/* @media (max-width: 767px) {
+@media (max-width: 767px) {
   .scroll-up {
     display: none;
   }
-} */
+}
 .scroll-up a {
   display: block;
   padding: 20px 10px;
