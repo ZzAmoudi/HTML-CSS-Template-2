@@ -97,11 +97,6 @@ ul {
   width: fit-content;
   height: 60px;
 }
-@media (max-width: 767px) {
-  .scroll-up {
-    display: none;
-  }
-}
 .scroll-up a {
   display: block;
   padding: 20px 10px;
@@ -173,6 +168,7 @@ header ul a.active {
   header ul {
     display: none;
   }
+  header ul:hover,
   header .toggle-menu:hover + ul {
     display: block;
     position: absolute;
